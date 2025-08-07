@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@font-face {
+            font-family: 'android';
+            src: url('../pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: rgb(168, 240, 215);
+        }
+        a.externo::after{
+            content: '\1F517';
+        }
+        header{
+            background-image: linear-gradient(to top, rgb(11, 87, 51),rgb(10, 124, 71), rgb(78, 204, 126));
+            min-height: 150px;
+            text-align: center;
+            padding-top: 40px;
+        }
+        nav{
+            background-color: rgb(11, 87, 51);
+            margin: auto;
+            padding: 10px;
+            box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.445);
+        }
+        nav > a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: bolder;
+            margin: auto;
+            text-decoration: none;
+            padding: 10px;
+            transition-duration: 0.5s;
+        }
+        nav > a:hover{
+            background-color: rgb(110, 148, 110);
+            border-radius: 5px;
+            
+        }
+
+        
+        header > h1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+            
+        }
+        header > p{
+            color: white;
+            text-align: center;
+            font-size: 1.3em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+            
+        }
+        main{
+            text-align: center;
+            background-color: white;
+            min-width: 270px;
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 50px;
+            padding: 18px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 0px 0px 10px black;
+          
+        }
+        main a{
+            color: rgb(0, 95, 43);
+            background-color: rgb(116, 255, 174);
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.1em;
+        }
+        main a:hover{
+            text-decoration: underline;
+            color: rgb(0, 255, 64);
+        }
+        main p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            line-height: 2em;
+        }
+        main h1{
+            text-align: left;
+            color: rgb(0, 49, 22);
+            font-family: android;
+            font-size: 1.8em;
+            padding: 11px;
+        }
+         main h2{
+            text-align: left;
+            color: rgb(0, 116, 52);
+            font-family: android;
+            font-size: 1.3em;
+            padding: 11px;
+            background-image: linear-gradient(to right, rgba(44, 250, 123, 0.788), transparent);
+        }
+        div.video{
+            background-color: rgb(0, 49, 22);
+            margin-bottom: 30px;
+            margin: 0px -19px 30px;
+            padding: 20px;
+            padding-bottom: 58.9%;
+
+            position: relative;
+        }
+        div.video > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+            
+        }
+        footer{
+            text-align: center;
+            background-color: rgb(11, 87, 51);
+            color: white;
+            padding: 3px;
+        }
+        footer > p{
+            margin: 0%;
+        }
+        main strong{
+            color: rgb(0, 128, 58);
+        }
+        picture > img{
+            width: 100%;
+        }
+        aside{
+            background-color: rgba(91, 158, 131, 0.849);
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px black;
+        }
+        aside > ul{
+            list-style-position: inside;
+            text-align: left;
+            columns: 2;
+            list-style-type: '\2714\00A0';
+        }
+         aside > h3{
+             background-color:  rgb(51, 134, 95);
+            color: white;
+            font-size: 1em;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            text-indent: 10px;
+            padding: 5px;
+            margin: -10px -10px 0px -10px;
+            border-radius: 10px 10px 0px 0px;
+        }
